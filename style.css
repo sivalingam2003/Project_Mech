@@ -1,0 +1,126 @@
+body{
+    background-color: white;
+    background-position-x: 20%;
+}
+header{
+    padding: 0.5px;
+    display: flex;
+    justify-content: space-around;
+    button{
+        width: 10%;height: 45px;
+        border-color:rgb(31, 115, 211);
+        border-radius: none;
+    }
+
+}
+b{
+    font-weight: bold;
+}
+.index{
+    background-color: #EEFEFF;
+    background-color: color-mix(in srgb, color 50%, color 50%);
+}
+h1{
+    text-align: center;
+}
+.but{
+    width: 10%;
+    height: 40px;
+    border: none;
+    background-color:#0CBBC7;
+    color: white;
+}
+.second{
+    text-align: center;
+    
+}
+.img1{
+    background: linear-gradient(to top, white 50%, #EEFEFF 50%);
+}
+.customer{
+    font-size-adjust:0.3;
+    padding: 2px;
+    background-color: rgb(197, 255, 255);
+    color: rgb(1, 177, 177);
+    display: inline-block;
+    border-radius: 10px;
+    height: 15px;
+    font-family: sans-serif;
+    font-size: 18px;;
+}
+
+.page1{
+    list-style-type:none;;
+    display: flex;
+    justify-content: space-evenly;
+}
+hr{
+    color:white;
+}
+.alignleft{
+    float:left;
+}
+.imgalignright{
+    max-width: 50%;
+    float:right;
+    border-radius: 15px;
+}
+.flex1{
+    display: flex;
+    justify-content: space-evenly;
+}
+.but2{
+    width: 20%;
+    height: 40px;
+    border: none;
+    background-color:#0CBBC7;
+    color: white;
+}
+.grid_container {
+    display: grid;
+    grid-template-columns:repeat(3,1fr);
+    padding: 10px;
+    margin: 10%;
+  }
+  .grid-item {
+    /*background-color: rgba(129, 194, 255, 0.8);*/
+    border: 4cap solid white;
+    justify-content: center;
+    width: 60%;
+    height: 60%;
+    padding: 40px;
+  }
+.font_thin{
+    font-family: sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
+.foot{
+        list-style-type:none;
+}
+.listclr{
+    font-family: sans-serif;
+    line-height: 260%;
+    color: rgb(110, 110, 110);
+}
+footer{
+    background-color: rgb(8, 8, 8);
+}
+.flex2{
+    display: flex;
+    justify-content: space-around;
+}
+.but3{
+    width: 8%;
+    height: 35px;
+    border: none;
+    background-color:#0CBBC7;
+    color: white;
+}
+.but4{
+    width: 15%;
+    height: 35px;
+    border-color:aqua;
+    color: aqua;
+    border-radius: none;
+}
